@@ -30,9 +30,9 @@ async function showCarousel() {
     imageContainer.append(nailImage)
     nailImage.src = source_url;
     nailImage.alt = "thuy nguyen negler"
-    nailImage.classList.add("w-50", "img-fluid");
+    nailImage.classList.add("nailImage", "img-fluid");
     nailImage.style.objectFit = "cover";
-    nailImage.style.height = "300px";
+    
 })
 }
 
