@@ -1,0 +1,55 @@
+{
+  "name": "thuynguyen-negler",
+  "version": "0.0.1",
+  "description": "An auction website for baby and maternity products",
+  "scripts": {
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server",
+    "format": "prettier -w src/js/**/*.mjs",
+    "lint": "eslint js/**/*.mjs",
+    "lint-fix": "eslint src/js/**/*.mjs --cache --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thikimyen-nguyen/thuynguyennegler"
+  },
+  "keywords": [
+    "negler",
+    "nails"
+    
+  ],
+  "author": "Yen Nguyen <nguyenthikimyen25@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thikimyen-nguyen/thuynguyennegler/issues"
+  },
+  "homepage": "https://github.com/thikimyen-nguyen/thuynguyennegler",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.10.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "prettier": "^3.1.0",
+    "sass": "^1.66.1"
+  },
+  "lint-staged": {
+    "*.mjs": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ],
+    "*.css": [
+      "prettier --write"
+    ]
+  }
+}
