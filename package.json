@@ -5,9 +5,9 @@
   "scripts": {
     "build": "sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css & live-server",
-    "format": "prettier -w src/js/**/*.mjs",
-    "lint": "eslint js/**/*.mjs",
-    "lint-fix": "eslint src/js/**/*.mjs --cache --fix",
+    "format": "prettier -w src/js/*.mjs",
+    "lint": "eslint src/js/*.mjs",
+    "lint-fix": "eslint src/js/*.mjs --cache --fix",
     "prepare": "husky install"
   },
   "repository": {
