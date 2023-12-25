@@ -32,8 +32,8 @@ body {
 }
 
 .cover{
-  background-position-x: right;
-  background-position-y: top;    
+  // background-position-x: right;
+  // background-position-y: top;    
   position: relative;
   width: 100%;
   margin-bottom: 30px;
@@ -47,7 +47,8 @@ body {
  
 }
 .nailImage {
-  width: 60%;
+  width: 80%;
+  height: 500px;
 }
 a{
   color: $light;

@@ -31,7 +31,7 @@ async function showCarousel() {
     nailImage.src = source_url;
     nailImage.alt = "thuy nguyen negler"
     nailImage.classList.add("nailImage", "img-fluid");
-    nailImage.style.objectFit = "cover";
+    // nailImage.style.objectFit = "cover";
     
 })
 }
