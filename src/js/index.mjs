@@ -1,4 +1,4 @@
-const imagesAPI = "http://34.82.129.237/wp-json/wp/v2/api/media?per_page=100";
+const imagesAPI = "https://thuynguyennegler.netlify.app/api/media?per_page=100";
 
 async function getImages() {
   const response = await fetch(imagesAPI);
