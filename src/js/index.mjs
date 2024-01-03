@@ -28,7 +28,7 @@ async function showCarousel() {
     }
     const nailImage = document.createElement("img")
     imageContainer.append(nailImage)
-    nailImage.src = "http://34.82.129.237/wp-content/uploads/2023/12/1703155875191.jpg";
+    nailImage.src = guid.rendered;
     nailImage.alt = "thuynguyennegler nail in halden negler i halden"
     nailImage.classList.add("nailImage", "img-fluid");
     // nailImage.style.objectFit = "cover";
