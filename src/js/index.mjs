@@ -1,4 +1,4 @@
-const imagesAPI = "https://yen-nguyen.no/wp-json/wp/v2/media?per_page=100";
+const imagesAPI = "http://34.82.129.237/wp-json/wp/v2/media?per_page=100";
 
 async function getImages() {
   const response = await fetch(imagesAPI);
@@ -29,7 +29,7 @@ async function showCarousel() {
     const nailImage = document.createElement("img")
     imageContainer.append(nailImage)
     nailImage.src = source_url;
-    nailImage.alt = "thuy nguyen negler"
+    nailImage.alt = "thuynguyennegler nail in halden negler i halden"
     nailImage.classList.add("nailImage", "img-fluid");
     // nailImage.style.objectFit = "cover";
     
