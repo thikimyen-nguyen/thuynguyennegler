@@ -19,7 +19,7 @@ async function showCarousel() {
   loader.innerHTML = "";
   const images = await getImages();
   images.forEach((image, index) => {
-    const { source_url } = image;
+    const { guid } = image;
     const imageContainer = document.createElement("div")
     imageContainer.classList.add("carousel-item", "text-center");
     carouselContainer.append(imageContainer);
@@ -28,7 +28,7 @@ async function showCarousel() {
     }
     const nailImage = document.createElement("img")
     imageContainer.append(nailImage)
-    nailImage.src = source_url;
+    nailImage.src = "http://34.82.129.237/wp-content/uploads/2023/12/1703155875191.jpg";
     nailImage.alt = "thuynguyennegler nail in halden negler i halden"
     nailImage.classList.add("nailImage", "img-fluid");
     // nailImage.style.objectFit = "cover";
